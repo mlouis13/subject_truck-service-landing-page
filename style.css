@@ -1,0 +1,152 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header {
+	width: 80%;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+main {
+	width: 80%;
+	padding: 12px 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+.columns {
+	display: flex;
+	flex-direction: column;
+}
+.assembly {
+	display: grid;
+	grid-template-areas:
+		"h2 h1 h3"
+		"h4 h1 h5";
+	gap: 4px 48px;
+}
+hr {
+	grid-area: h1;
+}
+.neuille1 {
+	grid-area: h2;
+}
+.neuille2 {
+	grid-area: h3;
+}
+.neuille3 {
+	grid-area: h4;
+}
+.neuille4 {
+	grid-area: h5;
+}
+.p {
+	color: #333333b2;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.h6 {
+	display: flex;
+	gap: 24px;
+	margin-right: 300px;
+}
+a {
+	text-decoration: none;
+	font-family: Inter;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 1rem;
+	line-height: 100%;
+	color: #333333;
+}
+button {
+	background-color: #4762ff;
+	padding: 12px 18px;
+	color: #ffffff;
+	font-family: Inter;
+	font-weight: 600;
+	font-style: Semi Bold;
+	line-height: 100%;
+	letter-spacing: 0%;
+	border: none;
+	border-radius: 6px;
+}
+.trucks {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ecriture {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.camion {
+	width: 55%;
+}
+h1 {
+	font-family: Inter;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 60px;
+	line-height: 76px;
+	letter-spacing: 0%;
+}
+.exp {
+	font-family: Inter;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 18px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #333333cc;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hauttableau {
+	width: 50%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+}
+h4 {
+	font-family: Inter;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 18px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	color: #333333cc;
+}
